@@ -3,15 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 import { TabGroupComponent } from './tab-group/tab-group.component';
 import { TabPanelComponent } from './tab-panel/tab-panel.component';
+import { Bar, Content, Foo } from './dummy/dummy';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, Foo , Bar, Content],
   declarations: [
     AppComponent,
-    HelloComponent,
     TabGroupComponent,
     TabPanelComponent,
   ],
