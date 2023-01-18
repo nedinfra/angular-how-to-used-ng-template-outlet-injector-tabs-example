@@ -7,6 +7,7 @@ import { TabGroupComponent } from './tabs/tab-group/tab-group.component';
 import { TabPanelComponent } from './tabs/tab-panel/tab-panel.component';
 import { Bar, Content, CustomBar, CustomBarWork, Foo } from './dummy/dummy';
 import { BsTabGroupComponent } from './tabs/bs-tab-group/bs-tab-group.component';
+import { CustomTabGroupComponent } from './tabs/custom-tab-group/custom-tab-group.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { BsTabGroupComponent } from './tabs/bs-tab-group/bs-tab-group.component'
     CustomBarWork,
     TabGroupComponent,
     TabPanelComponent,
-    BsTabGroupComponent
+    BsTabGroupComponent,
+    CustomTabGroupComponent
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
