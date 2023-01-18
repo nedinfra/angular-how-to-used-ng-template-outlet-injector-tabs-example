@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
+import { Component , forwardRef} from '@angular/core';
 import { NgFor, NgIf, NgTemplateOutlet } from '@angular/common';
 import { TabGroupComponent } from '../tab-group/tab-group.component';
-import { forwardRef } from '@angular/core';
 
 const BsTabGroupProvider = {
   provide: TabGroupComponent,
